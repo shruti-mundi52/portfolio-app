@@ -116,7 +116,7 @@ const StyledPic = styled.div`
 const About = () => {
   const data = useStaticQuery(graphql`
     query {
-      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.jpg" }) {
+      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.jpeg" }) {
         childImageSharp {
           fluid(maxWidth: 500, traceSVG: { color: "#64ffda" }) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG
@@ -132,7 +132,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['Python', 'Flask', 'MYSQL', 'Machine Learning', 'HTML & CSS', 'JAVA'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,18 +141,18 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>Hello! I'm Shruti Mundi, a Machine Learning and Data Science enthusiast.</p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              I enjoy playing with the data and drawing meaningful insights from it. The power to predict from the
+              data fascinates me.My goal is to become a powerful data analyst and machine learning engineer.
+              
             </p>
 
             <p>
               Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
+              <a href="https://www.tcs.com/">Medi-Caps University</a>, I joined the
+              engineering team at <a href="https://www.tcs.com/">TCS</a> where I work
               on a wide variety of interesting and meaningful projects on a daily basis.
             </p>
 

@@ -1,12 +1,13 @@
 const config = require('./src/config');
 
 module.exports = {
+  pathPrefix:"/portfolio-app",
   siteMetadata: {
-    title: 'Brittany Chiang',
+    title: 'Shruti Mundi',
     description:
       'Brittany Chiang is a software engineer specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.',
     siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
+    image: '/logo.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',
   },
   plugins: [

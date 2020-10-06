@@ -171,12 +171,10 @@ const Projects = () => {
   const projectsToShow = showMore ? projects : firstSix;
 
   return (
+    <section id="projects">
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
+      <h2 ref={revealTitle}>Some Projects</h2>
 
-      <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
-        view the archive
-      </Link>
 
       <TransitionGroup className="projects-grid">
         {projectsToShow &&
@@ -241,10 +239,10 @@ const Projects = () => {
           })}
       </TransitionGroup>
 
-      <button className="more-button" onClick={() => setShowMore(!showMore)}>
-        Show {showMore ? 'Less' : 'More'}
-      </button>
+     
     </StyledProjectsSection>
+    </section>
+
   );
 };
 
