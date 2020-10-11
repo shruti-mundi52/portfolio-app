@@ -173,9 +173,7 @@ const Projects = () => {
   return (
     <section id="projects">
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>Some Projects</h2>
-
-
+      <h2 ref={revealTitle} className="numbered-heading">Some Projects</h2>
       <TransitionGroup className="projects-grid">
         {projectsToShow &&
           projectsToShow.map(({ node }, i) => {

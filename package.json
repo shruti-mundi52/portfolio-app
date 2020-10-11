@@ -1,8 +1,8 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
+  "name": "portfolio-app",
+  "description": "Shruti Mundi's personal website",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Shruti Mundi <shrutimundi@gmail.com>",
   "homepage":"http://shruti-mundi52.github.io/portfolio-app",
   "keywords": [
     "gatsby"

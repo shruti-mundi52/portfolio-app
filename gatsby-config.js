@@ -1,14 +1,14 @@
 const config = require('./src/config');
 
 module.exports = {
-  pathPrefix:"/portfolio-app",
+  pathPrefix:"/",
   siteMetadata: {
     title: 'Shruti Mundi',
     description:
-      'Brittany Chiang is a software engineer specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.',
+      'Shruti Mundi is a software engineer specializing in Data Science & Machine Learning.',
     siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
     image: '/logo.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@shruti-mundi',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
